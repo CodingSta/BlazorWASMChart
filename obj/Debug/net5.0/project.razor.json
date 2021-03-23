@@ -8,35 +8,187 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -336274996,
+        "HashCode": -92675830,
         "Kind": "Components.Component",
-        "Name": "FirstWeb.Shared.NavMenu",
+        "Name": "FirstWeb.Pages.Index",
         "AssemblyName": "FirstWeb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Shared.NavMenu"
+          "Common.TypeName": "FirstWeb.Pages.Index"
         }
       },
       {
-        "HashCode": -1607394867,
+        "HashCode": 878985991,
         "Kind": "Components.Component",
-        "Name": "FirstWeb.Shared.NavMenu",
+        "Name": "FirstWeb.Pages.Index",
         "AssemblyName": "FirstWeb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FirstWeb.Shared.NavMenu"
+            "TagName": "FirstWeb.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Shared.NavMenu",
+          "Common.TypeName": "FirstWeb.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -17987786,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.Pages.Counter",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 183471100,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.Pages.Counter",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstWeb.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -807510692,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.Pages.FetchData",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1919601524,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.Pages.FetchData",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstWeb.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -468535263,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.App",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.App"
+        }
+      },
+      {
+        "HashCode": -1617264472,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.App",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstWeb.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -195574130,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.Shared.SurveyPrompt",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1537866284,
+        "Kind": "Components.Component",
+        "Name": "FirstWeb.Shared.SurveyPrompt",
+        "AssemblyName": "FirstWeb",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstWeb.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstWeb.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -137,187 +289,35 @@
         }
       },
       {
-        "HashCode": -195574130,
+        "HashCode": -336274996,
         "Kind": "Components.Component",
-        "Name": "FirstWeb.Shared.SurveyPrompt",
+        "Name": "FirstWeb.Shared.NavMenu",
         "AssemblyName": "FirstWeb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Shared.SurveyPrompt"
+          "Common.TypeName": "FirstWeb.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -1537866284,
+        "HashCode": -1607394867,
         "Kind": "Components.Component",
-        "Name": "FirstWeb.Shared.SurveyPrompt",
+        "Name": "FirstWeb.Shared.NavMenu",
         "AssemblyName": "FirstWeb",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FirstWeb.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "FirstWeb.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -17987786,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.Pages.Counter",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 183471100,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.Pages.Counter",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FirstWeb.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -807510692,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.Pages.FetchData",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1919601524,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.Pages.FetchData",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FirstWeb.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -92675830,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.Pages.Index",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 878985991,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.Pages.Index",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FirstWeb.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -468535263,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.App",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.App"
-        }
-      },
-      {
-        "HashCode": -1617264472,
-        "Kind": "Components.Component",
-        "Name": "FirstWeb.App",
-        "AssemblyName": "FirstWeb",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FirstWeb.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstWeb.App",
+          "Common.TypeName": "FirstWeb.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -3445,235 +3445,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -294764062,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyMan.LineChart",
-        "AssemblyName": "LineChart",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LineChart"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries1",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries1"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries2",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries2"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries3",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries3"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries4",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries4"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries5",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries5"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries6",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries6"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries7",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries7"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries8",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries8"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries9",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries9"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries10",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries10"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputLabels",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputLabels"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "XAxisLabels",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "XAxisLabels"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyMan.LineChart"
-        }
-      },
-      {
-        "HashCode": -776551070,
-        "Kind": "Components.Component",
-        "Name": "WebAssemblyMan.LineChart",
-        "AssemblyName": "LineChart",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebAssemblyMan.LineChart"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries1",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries1"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries2",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries2"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries3",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries3"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries4",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries4"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries5",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries5"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries6",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries6"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries7",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries7"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries8",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries8"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries9",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries9"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputSeries10",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputSeries10"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "InputLabels",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "InputLabels"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "XAxisLabels",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "XAxisLabels"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebAssemblyMan.LineChart",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
