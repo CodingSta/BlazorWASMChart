@@ -1,43 +1,206 @@
-﻿
+﻿@using System;
+@using System.Net;
 @using System.Net.NetworkInformation;
 @using System.Net.Http;
-@using System.Net;
-@using System.Text.RegularExpressions;
+@using System.Net.Http.Json;
+@using System.Net.Http.Headers;
+
 @using System.Text;
+@using System.Text.Json;
+@using System.Text.RegularExpressions;
+
+@using System.Threading.Tasks;
+
 @using System.Collections;
 @using System.Collections.Generic;
+
 @using System.Linq;
 @using System.Reflection;
-@using System;
+
 @using System.IO;
 @using System.IO.Compression;
-@using System.Text.Json;
+
+@using Newtonsoft.Json;
+
+@* @using Microsoft.AspNetCore.Components.WebAssembly.Authentication; *@
+@using WebAssemblyMan;
+@inject HttpClient Http;
+@* @inject IAccessTokenProvider TokenProvider; *@
 
 @page "/"
 
+<p><button @onclick="getData">Update Line Data <code>Data01</code></button></p>
+
 <h1>Hello, world!</h1>
-
 <p>Welcome to your new app.</p>
-<p>My name is MinGyu.</p>
+<p>@Data01</p>
+<p>@AlarmData</p>
 
-@* <DonutChart InputData="10,30,20,10,10,10,5,5" InputLabels="App Store,Website,Partners,Direct,Channels,Retail,Distributors,Affiliates"></DonutChart>
-    <PieChart InputData="10,30,20,10,10,10,5,5" InputLabels="App Store,Website,Partners,Direct,Channels,Retail,Distributors,Affiliates"></PieChart>
-    <LineChart InputSeries1 = "30,70,42,50,3,55,35,22" InputSeries2 = "40,50,32,75,55,15,15,12,66" InputSeries3 = "0,10,10,10,10,20,70,70" XAxisLabels ="1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월 "InputLabels ="App Store, Website, Partners "> </LineChart>
-    <HorizontalBarChart InputData = "10,20,30,40,50,60,70,80,90,100" InputLabels = "앱 스토어, 웹 사이트, 파트너, 직접, 채널, 소매, 배포자, 제휴사, 전화, TV"></HorizontalBarChart>
-    <VerticalBarChart InputData = "30,70,42,50,3,55,35,22,10,5" InputLabels = "앱 스토어, 웹 사이트, 파트너, 직접, 채널, 소매, 유통 업체, 제휴사, 전화, TV"></VerticalBarChart> *@
+<p>DonutChart</p>
+<DonutChart InputData="10,30,20,10,10,10,5,5" InputLabels="App Store,Website,Partners,Direct,Channels,Retail,Distributors,Affiliates"></DonutChart>
+<p>PieChart</p>
+<PieChart InputData="10,30,20,10,10,10,5,5" InputLabels="App Store,Website,Partners,Direct,Channels,Retail,Distributors,Affiliates"></PieChart>
+<p>LineChart</p>
+<LineChart InputSeries1 = "@Data01" InputSeries2 = "@Data02" InputSeries3 = "10,30,80,70,20,40,50,60,20" XAxisLabels ="1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월 "InputLabels ="App Store, Website, Partners "> </LineChart>
+
+<p>HorizontalBarChart</p>
+<HorizontalBarChart InputData = "10,20,30,40,50,60,70,80,90,100" InputLabels = "앱 스토어, 웹 사이트, 파트너, 직접, 채널, 소매, 배포자, 제휴사, 전화, TV"></HorizontalBarChart>
+<p>VerticalBarChart</p>
+<VerticalBarChart InputData = "30,70,42,50,3,55,35,22,10,5" InputLabels = "앱 스토어, 웹 사이트, 파트너, 직접, 채널, 소매, 유통 업체, 제휴사, 전화, TV"></VerticalBarChart>
+<p></p><p>Sparkline</p>
+<Sparkline InputData="10,20,30,40,50,60,70,80,90,20,10,0" GenerateText="true" SegmentWidth="30"></Sparkline>
+<p></p><p>ColumnBars</p>
+<ColumnBars InputData="10,20,30,40,50"></ColumnBars>
+<p></p><p>MiniPie</p>
+<MiniPie InputData="10,20,30"></MiniPie>
+<p></p><p>WinLoss</p>
+<WinLoss InputData="10,20,30,40,50"></WinLoss>
+<p></p><p>BulletBars</p>
+<BulletBars InputData="10,20,30,40,50"></BulletBars>
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
 @code {
-    @* private string[] dataA; *@
-    @* private string[] dataB; *@
-    @* private string[] dataC; *@
-    @* private string[] XLabels; *@
-    private void getData()
+    string Data01 = "90,80,70,60,50,40,30,20,10";
+    string Data02 = "10,20,30,40,50,60,70,80,90";
+    string AlarmData = "";
+    TempHumi[] responseBody;
+    HttpResponseMessage responseBodyB;
+
+    Task getData()
     {
-        @* string latest_alarm = Newtonsoft.Json.JsonConvert.SerializeObject(alarmObj); *@
-        @* JObject obj = new JObject(); *@
+        @* Data01 = "10,20,30,40,50,60,70,80,90"; *@
+        return Task.CompletedTask;
+    }
+
+    private async Task PostRequest()
+    {
+        responseBody = await Http.GetFromJsonAsync<TempHumi[]>("https://busanbridge.azurewebsites.net/api/ReadBridgeData?code=fTosNwh80TYRjnlOW/MeIiuuRM/4ecaziGK1xP8oqVsVOOkK6UXz3w==");
+        Data01 = "";
+        Data02 = "";
+        int i = 0;
+        foreach (var itemA in responseBody)
+        {
+            Data01 = Data01 + itemA.temp + ",";
+            Data02 = Data02 + itemA.humi + ",";
+            i++;
+            if (i == 30) break;
+        }
+        Data01.Remove(Data01.Length - 1, 1);
+        Data02.Remove(Data02.Length - 1, 1);
+    }
+
+    private async Task PostJsonWithReq()
+    {
+        var postJSON = new ReadAlarm { Period = "total", Ship = "lp01" };
+        var jsonA = JsonConvert.SerializeObject(postJSON);
+        var dataZ = new StringContent(content: jsonA, encoding: Encoding.UTF8, mediaType: "application/json");
+        responseBodyB = await Http.PostAsync("https://hsdfun.azurewebsites.net/api/ReadAlarmData?code=OAfmLwMZgtfHRsT3Rti1nhfnftJiz1zMZ8D1afZuZKuQczSh1slJRw==", dataZ);
+        @* AlarmData = await responseBodyB.Content.ReadAsStringAsync(); *@
+
+        var contentA = await responseBodyB.Content.ReadFromJsonAsync<Alarm>();
+        AlarmData = string.Join(string.Empty, contentA.EMO);
+
+        @* AlarmData = contentA.ToString(); *@
+
+        @* PutAsJsonAsync / DeleteAsync / GetFromJsonAsync *@
+        @* var content = await response.Content.ReadFromJsonAsync<WeatherForecast>(); *@
+        @* PostAsJsonAsync를 호출하면 HttpResponseMessage가 반환. 응답 메시지에서 JSON 콘텐츠를 역직렬화하려면 ReadFromJsonAsync<T> 확장 메서드를 사용 *@
+    }
+
+    public class ReadAlarm
+    {
+        public string Period { get; set; }
+        public string Ship { get; set; }
+    }
+
+    public class TempHumi
+    {
+        public string time { get; set; }
+        public string temp { get; set; }
+        public string humi { get; set; }
+        public string pressure { get; set; }
+        public float height { get; set; }
+    }
+
+    public class Alarm
+    {
+        public int[] EMO { get; set; }
+        public int[] ENG { get; set; }
+        public int[] AMU3395 { get; set; }
+        public int[] AP3386 { get; set; }
+        public int[] TE3301 { get; set; }
+        public int[] PT8601 { get; set; }
+        public int[] TE3305 { get; set; }
+        public int[] TC3201 { get; set; }
+        public int[] TC1101 { get; set; }
+        public int[] TC1111 { get; set; }
+        public int[] PDT1121 { get; set; }
+        public int[] CPV3271 { get; set; }
+        public int[] CPV3272 { get; set; }
+        public int[] CPV3273 { get; set; }
+        public int[] CPV3275 { get; set; }
+        public int[] CSV3276 { get; set; }
+        public int[] BL2500_01 { get; set; }
+        public int[] BL2772_01 { get; set; }
+        public int[] BL2772_02 { get; set; }
+        public int[] BU2700 { get; set; }
+        public int[] CSV2775_01 { get; set; }
+        public int[] CSV2775_02 { get; set; }
+        public int[] TC2301 { get; set; }
+        public int[] TC2401 { get; set; }
+        public int[] FT2241 { get; set; }
+        public int[] FT2742 { get; set; }
+        public int[] PT2125 { get; set; }
+        public int[] FT2141 { get; set; }
+        public int[] FS2140 { get; set; }
+        public int[] FS2142 { get; set; }
+        public int[] PM2175 { get; set; }
+        public int[] PM2176 { get; set; }
+        public int[] PP2770_01 { get; set; }
+        public int[] PP2770_02 { get; set; }
+        public int[] TE9901 { get; set; }
+        public int[] LM9981 { get; set; }
+        public int[] LM9985 { get; set; }
+        public int[] PS2121 { get; set; }
+        public int[] PT2121 { get; set; }
+        public int[] PS2123 { get; set; }
+        public int[] PS2521 { get; set; }
+        public int[] FS2541 { get; set; }
+        public int[] PS2525 { get; set; }
+        public int[] PS1321 { get; set; }
+        public int[] PS1322 { get; set; }
+        public int[] PS1323 { get; set; }
+        public int[] PT1323 { get; set; }
+        public int[] PS2721 { get; set; }
+        public int[] PS2725 { get; set; }
+        public int[] PS2730 { get; set; }
+        public int[] NOxS3242 { get; set; }
+        public int[] INFO { get; set; }
+        public int[] PWR { get; set; }
+        public int[] COMM { get; set; }
+        public int[] INFO_2 { get; set; }
+        public int[] CSV3271 { get; set; }
+        public int[] CSV3272 { get; set; }
+        public string update_time { get; set; }
+    }
 
 
+
+    protected override async Task OnInitializedAsync()
+    {
+        await getData();
+        @* await PostRequest(); *@
+        await PostJsonWithReq();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+
+        }
     }
 }
+
+@* https://docs.microsoft.com/ko-kr/aspnet/core/blazor/call-web-api?view=aspnetcore-5.0 *@

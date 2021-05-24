@@ -1,17 +1,668 @@
 {
   "format": 1,
   "restore": {
-    "/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/FirstWeb.csproj": {}
+    "/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/FirstWeb.csproj": {}
   },
   "projects": {
-    "/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/FirstWeb.csproj": {
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/DonutChart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/FirstWeb.csproj",
-        "projectName": "FirstWeb",
-        "projectPath": "/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/FirstWeb.csproj",
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/DonutChart.csproj",
+        "projectName": "DonutChart",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/DonutChart.csproj",
         "packagesPath": "/Users/codingstar/.nuget/packages/",
-        "outputPath": "/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/obj/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/HorizontalBarChart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/HorizontalBarChart.csproj",
+        "projectName": "HorizontalBarChart",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/HorizontalBarChart.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/LineChart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/LineChart.csproj",
+        "projectName": "LineChart",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/LineChart.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/PieChart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/PieChart.csproj",
+        "projectName": "PieChart",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/PieChart.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/VerticalBarChart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/VerticalBarChart.csproj",
+        "projectName": "VerticalBarChart",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/VerticalBarChart.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/BulletBars.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/BulletBars.csproj",
+        "projectName": "BulletBars",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/BulletBars.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/ColumnBars.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/ColumnBars.csproj",
+        "projectName": "ColumnBars",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/ColumnBars.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/MiniPie.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/MiniPie.csproj",
+        "projectName": "MiniPie",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/MiniPie.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/Sparklines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/Sparklines.csproj",
+        "projectName": "Sparklines",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/Sparklines.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/WinLoss.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/WinLoss.csproj",
+        "projectName": "WinLoss",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/WinLoss.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/codingstar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/FirstWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/FirstWeb.csproj",
+        "projectName": "FirstWeb",
+        "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/FirstWeb.csproj",
+        "packagesPath": "/Users/codingstar/.nuget/packages/",
+        "outputPath": "/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -28,7 +679,38 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/DonutChart.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/DonutChart.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/HorizontalBarChart.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/HorizontalBarChart.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/LineChart.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/LineChart.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/PieChart.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/PieChart.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/VerticalBarChart.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/VerticalBarChart.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/BulletBars.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/BulletBars.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/ColumnBars.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/ColumnBars.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/MiniPie.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/MiniPie.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/Sparklines.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/Sparklines.csproj"
+              },
+              "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/WinLoss.csproj": {
+                "projectPath": "/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/WinLoss.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,6 +743,10 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
@@ -81,6 +767,10 @@
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "System.IO.Compression": {
               "target": "Package",

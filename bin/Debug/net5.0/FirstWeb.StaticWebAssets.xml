@@ -1,4 +1,15 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/bin/Debug/net5.0/wwwroot/" />
-  <ContentRoot BasePath="/" Path="/Users/codingstar/Documents/workspaces_Javascript/FirstWeb/obj/Debug/net5.0/scopedcss/bundle/" />
+  <ContentRoot BasePath="_content/BulletBars" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/BulletBars/wwwroot/" />
+  <ContentRoot BasePath="_content/ColumnBars" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/ColumnBars/wwwroot/" />
+  <ContentRoot BasePath="_content/DonutChart" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/DonutChart/wwwroot/" />
+  <ContentRoot BasePath="_content/HorizontalBarChart" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/HorizontalBarChart/wwwroot/" />
+  <ContentRoot BasePath="_content/LineChart" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/LineChart/wwwroot/" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/codingstar/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.4/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/MiniPie" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/MiniPie/wwwroot/" />
+  <ContentRoot BasePath="_content/PieChart" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/PieChart/wwwroot/" />
+  <ContentRoot BasePath="_content/Sparklines" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/Sparklines/wwwroot/" />
+  <ContentRoot BasePath="_content/VerticalBarChart" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Charts/VerticalBarChart/wwwroot/" />
+  <ContentRoot BasePath="_content/WinLoss" Path="/Users/codingstar/Documents/workspaces_Blazor/Blazor-Sparkline/WinLoss/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/bin/Debug/net5.0/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/codingstar/Documents/workspaces_Blazor/FirstWeb/obj/Debug/net5.0/scopedcss/bundle/" />
 </StaticWebAssets>
